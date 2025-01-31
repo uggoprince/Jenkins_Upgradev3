@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "dgSpecHash": "v0uo2N96vFA=",
+  "success": false,
+  "projectFilePath": "/Users/apple/Desktop/devops/Jenkins_Upgradev3/jenkins-plugin-model/src/Pi.Web/Pi.Web.csproj",
+  "expectedPackageFiles": [
+    "/Users/apple/.nuget/packages/powerargs/3.6.0/powerargs.3.6.0.nupkg.sha512",
+    "/Users/apple/.nuget/packages/prometheus-net/3.4.0/prometheus-net.3.4.0.nupkg.sha512",
+    "/Users/apple/.nuget/packages/prometheus-net.aspnetcore/3.4.0/prometheus-net.aspnetcore.3.4.0.nupkg.sha512",
+    "/Users/apple/.nuget/packages/system.valuetuple/4.5.0/system.valuetuple.4.5.0.nupkg.sha512",
+    "/Users/apple/.nuget/packages/microsoft.netcore.app.ref/6.0.36/microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "/Users/apple/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.36/microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512",
+    "/Users/apple/.nuget/packages/microsoft.netcore.app.host.osx-x64/6.0.36/microsoft.netcore.app.host.osx-x64.6.0.36.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project Pi.Runtime is not compatible with net6.0 (.NETCoreApp,Version=v6.0). Project Pi.Runtime supports: net8.0 (.NETCoreApp,Version=v8.0)",
+      "libraryId": "Pi.Runtime",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
